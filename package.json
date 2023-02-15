@@ -1,14 +1,27 @@
 {
-  "name": "educate-frontend",
+  "name": "react-ui-home",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.90",
+    "@mui/material": "^5.9.0",
+    "@mui/x-data-grid": "^5.17.14",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-number-format": "^5.0.0-beta.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "2.8.3"
   }
 }
