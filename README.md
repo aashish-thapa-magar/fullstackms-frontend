@@ -1,2 +1,2 @@
-# fullstackms
-Full stack microservices
+# fullstackms-frontend
+Full stack frontend
